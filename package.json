@@ -1,0 +1,17 @@
+{
+	"name": "cpp-tools",
+	"version": "0.0.1",
+	"description": "C++'s build system is... suboptimal. This aims to make it a bit smoother.",
+	"bin": {
+		"cpp-tools": "./index.js"
+	},
+	"author": "cyrusfirheir",
+	"license": "MIT",
+	"private": true,
+	"dependencies": {
+		"commander": "^8.2.0",
+		"enquirer": "^2.3.6",
+		"fs-extra": "^10.0.0",
+		"glob": "^7.2.0"
+	}
+}
