@@ -7,6 +7,7 @@
 # Installation
 
 Run `npm install` to install dependencies, then `npm link` to make `cpp-tools` a global binary.
+Run `cpp-tools` in the command line to check if the install was successful.
 
 # Usage
 
