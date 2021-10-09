@@ -14,9 +14,11 @@ function build() {
 
 	const sources = config["includeDirs"]
 		.reduce(function (a, path) {
-			a.push(...sync(`${path}/**/*.{c,cpp}`, {
+			sync(`${path}/**/*.{c,cpp}`, {
 				cwd: process.cwd()
-			}));
+			}).forEach(file => {
+				if (!a.includes(file)) a.push(file);
+			});
 			return a;
 		}, [])
 		.join(" ");
