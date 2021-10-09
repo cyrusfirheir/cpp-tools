@@ -14,7 +14,5 @@ Run `cpp-tools` in the command line to check if the install was successful.
 - `cpp-tools init` : Start the scaffolding wizard
 - `cpp-tools build` : Build the project based on `cpp-tools.config.json`
 
-- <kbd>Ctrl</kbd> + <kbd>F5</kbd> : Build and Launch Project without debugger ✼
-- <kbd>F5</kbd> : Build and Launch Project with debugger attached ✼
-
-✼ _requires at least one file to be open in VSCode_
+- <kbd>Ctrl</kbd> + <kbd>F5</kbd> : Build and Launch Project without debugger
+- <kbd>F5</kbd> : Build and Launch Project with debugger attached
